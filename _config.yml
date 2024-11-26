@@ -1,9 +1,9 @@
 # Site settings
 title: System-on-Chip Design & Verification
-author:
-  name: Michelle Lynch
-  email: your-email@domain.com
-description: "A blog."
+author: Anesu Njove
+  name: Anesu Njove
+  email: g00425238@atu.ie
+description: "FPGA Project"
 
 # Build settings
 remote_theme: jekyll/minima
