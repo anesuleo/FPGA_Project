@@ -28,16 +28,16 @@ In the simulation:
 - As for the RGB signals, each color is repesented by 4 bits.
   
 ### **Synthesis**
-Synthesis is an essential process that transforms the Verilog code into hardware logic for the FPGA board. 
+Synthesis is an essential process that transforms the Verilog code into hardware logic for the FPGA board. TWe can see the top view of differrent modules and multiplexers. The Muxes are used to select the signal based on the select signal.
 
 <img src="https://raw.githubusercontent.com/anesuleo/FPGA_Project/main/docs/assets/images/Screenshot%202024-12-16%20075454.png">
 
-After the synthesis is done, the implementation follows. This is the implementation design for the Colour Cycle. 
+After the synthesis is done, the implementation follows. This is the implementation design for the Colour Cycle. In this implementation design we can see hoe the hardaware is placed on the board and different routes for VSync and HSync.
 
 <img src="https://raw.githubusercontent.com/anesuleo/FPGA_Project/main/docs/assets/images/Screenshot%202024-12-16%20075225.png">
 
 ### **Demonstration**
-
+This is the preview of the colourstripes once you have uploaded the bit file on to the board.
 <img src="https://raw.githubusercontent.com/anesuleo/FPGA_Project/main/docs/assets/images/Screenshot%202024-12-16%20075406.png">
 
 ## **My VGA Design Edit**
@@ -45,7 +45,7 @@ As for my design, I decided to make a smiley face and then a cycle of 3 colours 
 ### **Code Adaptation**
 I started working and making changes on the colour stripes, as initially I had no plan of adding the colour cycle at the end. To saart of I had to draw a layout of what I wanted to visualise. I used [Pixil Art](https://www.pixilart.com/) to draw the picture, using a resolution of 64 by 48 which would help me translate the picture to code. 
 
-<img src="https://raw.githubusercontent.com/anesuleo/FPGA_Project/main/docs/assets/images/Screenshot%202024-12-15%224443.png">
+<img src="https://raw.githubusercontent.com/anesuleo/FPGA_Project/main/docs/assets/images/Screenshot%202024-12-15%20224443.png">
 
 As for the colour rotation at the end, I used code from the colour cycle to write code for the state machine.
 
