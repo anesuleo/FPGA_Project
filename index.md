@@ -27,7 +27,7 @@ In the simulation:
 - col increments sequentially as part of the horizontal pixel counting.
 - When col resets to zero, row increments, indicating a transition to the next line.
 - As for the RGB signals, each color is repesented by 4 bits.
-- 
+  
 ### **Synthesis**
 Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
 ### **Demonstration**
@@ -48,12 +48,12 @@ I set boundary values for every part of the face using the coordinates from the 
 
 <img src="https://github.com/anesuleo/FPGA_Project/blob/main/docs/assets/images/Screenshot%202024-12-10%20155329.png">
 
-This piece of code was essential for the State machine and I adapted it from the colour cycle code. At the end of each state, the condition will allow the state machine to go to the next state.
+This piece of code was essential for the state machine and I adapted it from the colour cycle code. At the end of each state, the condition will allow the state machine to go to the next state.
 
 <img src="https://github.com/anesuleo/FPGA_Project/blob/main/docs/assets/images/Screenshot%202024-12-10%20155339.png">
 
 ### **Synthesis**
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs. 
 ### **Demonstration**
-If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
+If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 `sentences`
 
