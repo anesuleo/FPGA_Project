@@ -28,9 +28,17 @@ In the simulation:
 - As for the RGB signals, each color is repesented by 4 bits.
   
 ### **Synthesis**
-Synthesis is an essential process that transforms the Verilog code into hardware logic for the FPGA board. After the synthesis is done, the implementation follows. 
+Synthesis is an essential process that transforms the Verilog code into hardware logic for the FPGA board. 
+
+<img src="https://raw.githubusercontent.com/anesuleo/FPGA_Project/main/docs/assets/images/Screenshot%202024-12-16%20075454.png">
+
+After the synthesis is done, the implementation follows. This is the implementation design for the Colour Cycle. 
+
+<img src="https://raw.githubusercontent.com/anesuleo/FPGA_Project/main/docs/assets/images/Screenshot%202024-12-16%20075225.png">
+
 ### **Demonstration**
-Perhaps add a picture of your demo. Guideline: 1/2 sentences.
+
+<img src="https://raw.githubusercontent.com/anesuleo/FPGA_Project/main/docs/assets/images/Screenshot%202024-12-16%20075406.png">
 
 ## **My VGA Design Edit**
 As for my design, I decided to make a smiley face and then a cycle of 3 colours from left to right. This was a combination of the colour cycle and colour stripes templates. 
