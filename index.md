@@ -11,7 +11,7 @@ Let's embark on an exciting journey into FPGA programming as I turn hardware con
 ### **Project Set-Up**
 For this project, I used an FPGA board, the Basys3 paired with Verilog code to implement the VGA design. I setup the project using Vivado, a powerful software tool used for designing and programming FPGA-design system. During the setup, I specified the board and included all the design files. The siles include the VGTop.v, ColorStripes.v, ColorCycle.v and VGASync. These were the design files, with the VGA sync being the simulation file.
 
-<img src="https://github.com/anesuleo/FPGA_Project/blob/main/docs/assets/images/Screenshot%202024-12-03%20131912.png">
+<img src="https://raw.githubusercontent.com/anesuleo/FPGA_Project/main/docs/assets/images/Screenshot%202024-12-03%20131912.png">
 
 ### **Template Code**
 The provided Verilog templates show the basiscs of VGA interface. They show appropriate timing signals (HSYNC and VSYNC) and pixel data to drive a display. VGA operates by sending pixel data line-by-line in sync with timing signals, maintaining a precise refresh rate. This refresh can not be seen by human eye.
