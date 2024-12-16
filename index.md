@@ -43,9 +43,9 @@ After the synthesis is done, the implementation follows. This is the implementat
 ## **My VGA Design Edit**
 As for my design, I decided to make a smiley face and then a cycle of 3 colours from left to right. This was a combination of the colour cycle and colour stripes templates. 
 ### **Code Adaptation**
-I started working and making changes on the colour stripes, as initially I had no plan of adding the colour cycle at the end. To satrt of I had to draw a layout of what I wanted to visualise. I used [Pixil Art](https://www.pixilart.com/) to draw the picture, using a resolution of 64 by 48 which would help me translate the picture to code. 
+I started working and making changes on the colour stripes, as initially I had no plan of adding the colour cycle at the end. To saart of I had to draw a layout of what I wanted to visualise. I used [Pixil Art](https://www.pixilart.com/) to draw the picture, using a resolution of 64 by 48 which would help me translate the picture to code. 
 
-<img src="https://raw.githubusercontent.com/anesuleo/FPGA_Project/main/docs/assets/images/Screenshot%202024-12-03%20131912.png">
+<img src="https://raw.githubusercontent.com/anesuleo/FPGA_Project/main/docs/assets/images/Screenshot%202024-12-15%224443.png">
 
 As for the colour rotation at the end, I used code from the colour cycle to write code for the state machine.
 
@@ -60,7 +60,7 @@ This piece of code was essential for the state machine and I adapted it from the
 <img src="https://raw.githubusercontent.com/anesuleo/FPGA_Project/main/docs/assets/images/Screenshot%202024-12-10%20155339.png">
 
 ### **Synthesis**
-During synthesis, I noticed slight differences in resource utilization due to the added state machine and additional logic for pixel boundaries. The implementation results confirmed correct timing and logic for my custom design. 
+During synthesis, I noticed slight differences due to the added state machine and additional logic for pixel boundaries. The implementation results confirmed correct timing and logic for my custom design. 
 ### **Demonstration**
 
 The face and color cycle worked perfectly when tested on the Basys3 board. These are the images of the final output. Each image shows each state.
